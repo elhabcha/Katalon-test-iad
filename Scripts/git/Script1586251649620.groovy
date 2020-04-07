@@ -26,6 +26,8 @@ WebUI.setText(findTestObject('Object Repository/Page_IAD/input_Identifiant_usern
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_IAD/input_Mot de passe_password'), 'M1qipU8GjAM=')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_IAD/input_Mot de passe_submit'))
 
 WebUI.click(findTestObject('Object Repository/Page_IAD/button_Dmarrer'))
